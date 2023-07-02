@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 part 'by_city_button.dart';
+part 'by_gps_button.dart';
 part 'city_name.dart';
 part 'custom_divider.dart';
 part 'icon_widget.dart';
