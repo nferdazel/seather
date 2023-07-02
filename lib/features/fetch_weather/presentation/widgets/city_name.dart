@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of 'weather_widgets.dart';
 
 class CityName extends StatelessWidget {
   const CityName({super.key, required this.city});
