@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 part 'city_name.dart';
+part 'custom_divider.dart';
 part 'icon_widget.dart';
 part 'min_max_temp.dart';
 part 'sub_text.dart';
