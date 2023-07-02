@@ -1,3 +1,5 @@
+part of 'utils.dart';
+
 String getSubText(int condition) {
   switch (condition) {
     case < 300:

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:weather_icons/weather_icons.dart';
+part of 'utils.dart';
 
 Icon icond(IconData icon) => Icon(icon, color: Colors.blue);
 

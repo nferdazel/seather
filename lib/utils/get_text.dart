@@ -1,3 +1,5 @@
+part of 'utils.dart';
+
 String getText(int temp) {
   switch (temp) {
     case < 17:
