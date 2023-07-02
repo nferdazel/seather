@@ -7,3 +7,4 @@ part 'min_max_temp.dart';
 part 'sub_text.dart';
 part 'temp_widget.dart';
 part 'text_in_city.dart';
+part 'weather_body.dart';
