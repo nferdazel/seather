@@ -1,7 +1,7 @@
 part of 'weather_widgets.dart';
 
 class MinMaxTemp extends StatelessWidget {
-  const MinMaxTemp({super.key, required this.minTemp, required this.maxTemp});
+  const MinMaxTemp(this.minTemp, this.maxTemp, {super.key});
   final int minTemp;
   final int maxTemp;
 

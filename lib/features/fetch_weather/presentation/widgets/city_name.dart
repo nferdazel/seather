@@ -1,7 +1,7 @@
 part of 'weather_widgets.dart';
 
 class CityName extends StatelessWidget {
-  const CityName({super.key, required this.city});
+  const CityName(this.city, {super.key});
   final String city;
 
   @override

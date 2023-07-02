@@ -1,7 +1,7 @@
 part of 'weather_widgets.dart';
 
 class TempWidget extends StatelessWidget {
-  const TempWidget({super.key, required this.temp});
+  const TempWidget(this.temp, {super.key});
   final int temp;
 
   @override
