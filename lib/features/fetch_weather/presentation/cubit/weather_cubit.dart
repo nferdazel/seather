@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:seather/features/fetch_weather/data/data_sources/weather_remote.dart';
 
+import '../../data/data_sources/weather_remote.dart';
 import '../../data/models/data_model.dart';
 
 part 'weather_state.dart';

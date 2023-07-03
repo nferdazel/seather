@@ -1,7 +1,6 @@
-import 'package:seather/features/fetch_weather/data/models/data_model.dart';
-import 'package:seather/utils/utils.dart';
-
 import '../../../../config/env/env.dart';
+import '../../../../utils/utils.dart';
+import '../models/data_model.dart';
 
 class WeatherRemote {
   Future<Data> loc(String city) async {
