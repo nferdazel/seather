@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
-class SubText extends StatelessWidget {
-  const SubText(this.subText, {super.key});
+class WeatherSubText extends StatelessWidget {
+  const WeatherSubText(this.subText, {super.key});
   final String subText;
 
   @override

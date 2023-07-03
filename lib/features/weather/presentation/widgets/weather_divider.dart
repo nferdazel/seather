@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
-class CustomDivider extends StatelessWidget {
-  const CustomDivider({super.key});
+class WeatherDivider extends StatelessWidget {
+  const WeatherDivider({super.key});
 
   @override
   Widget build(BuildContext context) {

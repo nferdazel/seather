@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
-class TempWidget extends StatelessWidget {
-  const TempWidget(this.temp, {super.key});
+class WeatherTemp extends StatelessWidget {
+  const WeatherTemp(this.temp, {super.key});
   final int temp;
 
   @override

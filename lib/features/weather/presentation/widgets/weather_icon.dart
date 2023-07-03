@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
-class IconWidget extends StatelessWidget {
-  const IconWidget(this.icon, {super.key});
+class WeatherIcon extends StatelessWidget {
+  const WeatherIcon(this.icon, {super.key});
   final Icon icon;
 
   @override

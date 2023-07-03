@@ -1,9 +1,9 @@
-part of 'weather_widgets.dart';
+part of 'city_widget.dart';
 
 /// TODO: add Cubit function to the onChanged function
 /// to update the city
-class InsertCity extends StatelessWidget {
-  const InsertCity({super.key});
+class CityInsert extends StatelessWidget {
+  const CityInsert({super.key});
 
   @override
   Widget build(BuildContext context) {

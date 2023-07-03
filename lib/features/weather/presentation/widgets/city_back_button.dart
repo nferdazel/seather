@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'city_widget.dart';
 
-class CustomBackButton extends StatelessWidget {
-  const CustomBackButton({super.key});
+class CityBackButton extends StatelessWidget {
+  const CityBackButton({super.key});
 
   @override
   Widget build(BuildContext context) {

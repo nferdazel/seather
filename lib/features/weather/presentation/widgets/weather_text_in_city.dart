@@ -1,7 +1,7 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
-class TextInCity extends StatelessWidget {
-  const TextInCity({super.key, required this.text, required this.city});
+class WeatherTextInCity extends StatelessWidget {
+  const WeatherTextInCity({super.key, required this.text, required this.city});
   final String text;
   final String city;
 

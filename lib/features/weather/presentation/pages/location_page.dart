@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/weather_widgets.dart';
+import '../widgets/weather_widget.dart';
 
 class LocationPage extends StatelessWidget {
   const LocationPage({
@@ -34,7 +34,7 @@ class LocationPage extends StatelessWidget {
                 ByCityButton(),
               ],
             ),
-            CityName(city),
+            LocationCityName(city),
             Expanded(
               flex: 9,
               child: WeatherBody(

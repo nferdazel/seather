@@ -1,4 +1,4 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
 class WeatherBody extends StatelessWidget {
   const WeatherBody({
@@ -32,15 +32,15 @@ class WeatherBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           const SizedBox(height: 10),
-          Expanded(flex: 2, child: TempWidget(temp)),
-          Expanded(flex: 2, child: SubText(subText)),
-          TextInCity(text: text, city: city),
-          const CustomDivider(),
+          Expanded(flex: 2, child: WeatherTemp(temp)),
+          Expanded(flex: 2, child: WeatherSubText(subText)),
+          WeatherTextInCity(text: text, city: city),
+          const WeatherDivider(),
           Row(
             children: [
-              Expanded(child: IconWidget(icon)),
+              Expanded(child: WeatherIcon(icon)),
               const SizedBox(width: 100),
-              Expanded(child: MinMaxTemp(minTemp, maxTemp)),
+              Expanded(child: WeatherMinMaxTemp(minTemp, maxTemp)),
             ],
           ),
         ],

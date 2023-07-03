@@ -1,4 +1,4 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
 class ByCityButton extends StatelessWidget {
   const ByCityButton({super.key});

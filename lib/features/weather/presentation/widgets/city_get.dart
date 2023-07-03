@@ -1,8 +1,8 @@
-part of 'weather_widgets.dart';
+part of 'city_widget.dart';
 
 /// TODO: implement Cubit here to get city value
-class GetWeatherButton extends StatelessWidget {
-  const GetWeatherButton({super.key});
+class CityGet extends StatelessWidget {
+  const CityGet({super.key});
 
   @override
   Widget build(BuildContext context) {

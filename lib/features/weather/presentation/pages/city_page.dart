@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/weather_widgets.dart';
+import '../widgets/city_widget.dart';
 
 /// TODO: need to create cubit for this
 class CityPage extends StatelessWidget {
@@ -21,9 +21,9 @@ class CityPage extends StatelessWidget {
         child: const SafeArea(
           child: Column(
             children: [
-              BackButton(),
-              InsertCity(),
-              GetWeatherButton(),
+              CityBackButton(),
+              CityInsert(),
+              CityGet(),
             ],
           ),
         ),

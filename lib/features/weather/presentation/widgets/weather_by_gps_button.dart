@@ -1,4 +1,4 @@
-part of 'weather_widgets.dart';
+part of 'weather_widget.dart';
 
 class ByGpsButton extends StatelessWidget {
   const ByGpsButton({super.key});
