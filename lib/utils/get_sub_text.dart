@@ -1,4 +1,4 @@
-part of 'utils.dart';
+part of 'util.dart';
 
 String getSubText(int condition) {
   switch (condition) {

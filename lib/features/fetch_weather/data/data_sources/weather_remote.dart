@@ -1,5 +1,5 @@
 import '../../../../config/env/env.dart';
-import '../../../../utils/utils.dart';
+import '../../../../utils/util.dart';
 import '../models/data_model.dart';
 
 class WeatherRemote {

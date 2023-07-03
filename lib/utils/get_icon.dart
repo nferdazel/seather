@@ -1,4 +1,4 @@
-part of 'utils.dart';
+part of 'util.dart';
 
 Icon icond(IconData icon) => Icon(icon, color: Colors.blue);
 

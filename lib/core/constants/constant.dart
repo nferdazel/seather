@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-part 'styles.dart';
+part 'style.dart';

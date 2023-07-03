@@ -1,4 +1,4 @@
-part of 'utils.dart';
+part of 'util.dart';
 
 class HttpUtil {
   final Dio _dio = Dio();

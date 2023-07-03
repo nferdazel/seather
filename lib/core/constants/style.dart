@@ -1,4 +1,4 @@
-part of 'constants.dart';
+part of 'constant.dart';
 
 const textField = InputDecoration(
   filled: true,

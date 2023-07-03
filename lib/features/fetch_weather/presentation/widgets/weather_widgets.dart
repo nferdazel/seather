@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../../../../core/constants/constants.dart';
+import '../../../../core/constants/constant.dart';
 
 part 'by_city_button.dart';
 part 'by_gps_button.dart';
