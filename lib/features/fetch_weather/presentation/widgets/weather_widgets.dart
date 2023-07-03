@@ -6,6 +6,7 @@ import '../../../../core/constants/constants.dart';
 part 'by_city_button.dart';
 part 'by_gps_button.dart';
 part 'city_name.dart';
+part 'custom_back_button.dart';
 part 'custom_divider.dart';
 part 'get_weather_button.dart';
 part 'icon_widget.dart';
