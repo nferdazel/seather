@@ -1,9 +1,7 @@
 name: seather
-description: A new Flutter project.
-
+description: A weather app that just works.
 publish_to: 'none'
-
-version: 1.0.0+1
+version: 99.99.99+99
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
