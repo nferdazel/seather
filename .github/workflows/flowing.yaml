@@ -34,6 +34,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - run: |
+          echo "${{secrets.RELEASE_KEYSTORE}}" > upload-keystore.jks.asc
+          gpg -d --passphrase "${{secrets.RELEASE_KEYSTORE_PASSWORD}}" --batch upload-keystore.jks.asc > android/app/upload-keystore.jks
       - name: Get version.txt
         uses: actions/download-artifact@v2
         with:
