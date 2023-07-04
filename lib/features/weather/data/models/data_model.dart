@@ -21,7 +21,6 @@ class Data {
     required this.name,
     required this.cod,
   });
-
   late final Coord coord;
   late final List<Weather> weather;
   late final String base;

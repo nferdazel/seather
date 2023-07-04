@@ -8,7 +8,6 @@ class Sys {
     required this.sunrise,
     required this.sunset,
   });
-
   late final int type;
   late final int id;
   late final String country;
