@@ -8,7 +8,7 @@ class LoadingPage extends StatefulWidget {
 }
 
 class _LoadingPageState extends State<LoadingPage> {
-  /// TODO: create a function to fetch weather by current city
+  /// TODO: create a function to fetch weather by current city,
   /// and then call it inside initState
   @override
   Widget build(BuildContext context) {
