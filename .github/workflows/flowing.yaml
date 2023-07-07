@@ -96,5 +96,5 @@ jobs:
           serviceAccountJsonPlainText: ${{secrets.PLAYSTORE_ACCOUNT_KEY}}
           packageName: dev.nferdazel.seather
           releaseFiles: app-release.aab
-          track: alpha
+          track: production
           status: completed
