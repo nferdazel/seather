@@ -15,7 +15,7 @@ class WeatherRemote {
   }
 
   Future<Data> coords(double lat, double lon) async {
-    final url = '${Env.url}lat=$lat&lon=$lon&appid=${Env.key}&units+metric';
+    final url = '${Env.url}lat=$lat&lon=$lon&appid=${Env.key}&units=metric';
     try {
       final resp = await HttpUtil.fetch(url);
       final data = Data.fromJson(resp);
