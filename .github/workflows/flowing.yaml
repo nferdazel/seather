@@ -90,7 +90,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: appbundle
-      - name: Release App to Internal Track
+      - name: Release App to Production Track
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{secrets.PLAYSTORE_ACCOUNT_KEY}}
